@@ -1,0 +1,53 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Vector database storage (rebuilt via vector_store.py)
+faiss_index/
+data/faiss_index/
+
+# Frontend dependencies & build artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.package-lock.json
+
+# LLMOps local logs
+*.log
+llmops_traces.jsonl
+
+# OS / Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
